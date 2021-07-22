@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Breakout"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Dependencies\;CMake Files\Dependencies\glfw\;CMake Files\Dependencies\glfw\CMake\;CMake Files\Dependencies\glfw\src\;CMake Files\Dependencies\glew\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew">
+				<Option output="/home/zzn/Breakout/cmake-build-debug/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glew/include"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glm"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/stb"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/irrKlang/include"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/freetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 glew"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew/fast">
+				<Option output="/home/zzn/Breakout/cmake-build-debug/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glew/include"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glm"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/stb"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/irrKlang/include"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/freetype/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 glew/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Breakout">
+				<Option output="/home/zzn/Breakout/cmake-build-debug/Breakout" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glew/include"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glm"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/stb"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/irrKlang/include"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/freetype/include"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glfw/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 Breakout"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Breakout/fast">
+				<Option output="/home/zzn/Breakout/cmake-build-debug/Breakout" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glew/include"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glm"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/stb"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/irrKlang/include"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/freetype/include"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glfw/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 Breakout/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glfw/include"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glfw/src"/>
+					<Add directory="/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glfw/include"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glfw/src"/>
+					<Add directory="/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libglew_static">
+				<Option output="/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/lib/libglewd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug/Dependencies/glew"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glew/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 libglew_static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libglew_static/fast">
+				<Option output="/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/lib/libglewd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug/Dependencies/glew"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glew/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 libglew_static/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libglew_shared">
+				<Option output="/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/lib/libglew-sharedd.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug/Dependencies/glew"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_BUILD"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glew/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 libglew_shared"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libglew_shared/fast">
+				<Option output="/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/lib/libglew-sharedd.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzn/Breakout/cmake-build-debug/Dependencies/glew"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_BUILD"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add directory="/home/zzn/Breakout/Dependencies/glew/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 libglew_shared/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zzn/Breakout/cmake-build-debug/Dependencies/glew/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glew/src/glew.c">
+			<Option target="glew"/>
+			<Option target="libglew_static"/>
+			<Option target="libglew_shared"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/glx_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/glx_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/linux_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/linux_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/posix_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/posix_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/posix_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/posix_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/x11_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/x11_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/x11_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/x11_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/xkb_unicode.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/xkb_unicode.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/cmake-build-debug/Dependencies/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/BallObject.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/BallObject.h">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/Game.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/Game.h">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/GameLevel.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/GameLevel.h">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/GameObject.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/GameObject.h">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/ParticleGenerator.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/ParticleGenerator.h">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/PostProcessor.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/PostProcessor.h">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/PowerUp.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/PowerUp.h">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/ResourceManager.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/ResourceManager.h">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/Shader.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/Shader.h">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/SpriteRenderer.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/SpriteRenderer.h">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/TextRenderer.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/TextRenderer.h">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/Texture2D.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/Texture2D.h">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/main.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/src/stb_image.cpp">
+			<Option target="Breakout"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dependencies\glfw\"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\Dependencies\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\Dependencies\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\Dependencies\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dependencies\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\Dependencies\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dependencies\glew\"/>
+		</Unit>
+		<Unit filename="/home/zzn/Breakout/Dependencies/glew/GeneratePkgConfig.cmake">
+			<Option virtualFolder="CMake Files\Dependencies\glew\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
